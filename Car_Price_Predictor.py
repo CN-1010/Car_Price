@@ -5,12 +5,10 @@ Created on Sun Jun 22 00:19:41 2025
 
 @author: user
 """
-import streamlit as st
-import numpy as np
 import pandas as pd
 import datetime
-import xgboost as xgb
-import joblib
+from xgboost import XGBRegressor
+import streamlit as st
 
 
 def main():
